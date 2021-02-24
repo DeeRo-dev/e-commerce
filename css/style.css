@@ -10,11 +10,7 @@ body{
   background-attachment: fixed;
   
 }
-.scroll
-{
-     overflow-x:scroll;
-     overflow-y:hidden;
-}
+
 .nav{
   background: rgba(179, 26, 26, 0.39);
 
