@@ -1,7 +1,10 @@
-
+*{
+  padding: 0;
+	margin: 0;
+  box-sizing: border-box;
+}
 body{
 
-  margin: 0;
   min-height: 100vh;
   background-image: url(../images/fondo.jpg);
   background-size: cover;
@@ -10,12 +13,20 @@ body{
   background-attachment: fixed;
   
 }
-
-.nav{
+header{
   background: rgba(179, 26, 26, 0.39);
-
+  padding: 30 px 0;
+ 
 }
-
+header .content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content{
+  width: 90%;
+  margin: auto;
+}
 
 .nav__li{
   display: inline-block;
@@ -26,5 +37,15 @@ body{
 .nav__li a{
   color: bisque;
   text-decoration: none;
+  margin-right: 20px;
 }
 
+.nav__li i{
+  margin: 10px;
+}
+header .logo{
+  font-family: 'Open Sans', sans-serif;;
+  font-weight: normal;
+  color: #fff;
+  font-size: 40px;
+}
