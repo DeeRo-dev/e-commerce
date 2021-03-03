@@ -6,6 +6,10 @@
 }
 body{
   font-family: 'Akaya Telivigala', cursive;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
 
 }
 
@@ -17,13 +21,14 @@ body{
   max-width: 1200px;
 }
 .hero__title{
+  font-family:'Dancing Script', cursive;
+  font-size: 9em;
   color: #aaa;
-  font-size: 7.5rem;
   margin-bottom: 35px;
 }
 .hero__subtitle{
  
-  color: #aaa;
+  color: #fff;
   font-size: 2.5rem;
   margin-bottom: 35px;
 }
@@ -41,6 +46,7 @@ body{
   padding: 0;
 }
 .nav{
+  font-family: 'Akaya Telivigala', cursive;
   text-align: right;
   padding: 30px 20px 0 0;
 
@@ -88,25 +94,13 @@ nav i:hover{
 .hero__texts{
   margin: 0;
 }
+
 .parrafo{
+  text-align: justify;
   width: 500px;
 }
 
-/*.boton{
-width: 170px;
-height: 50px;
-font-family: 'Akaya Telivigala', cursive;
-color: #fff;
-background: #000;
-border-radius: 40px;
-}
 
-.boton:hover {
-
-  color: #000;
-  background: #fff !important;
-  
-  }*/
   .boton {
     font-family: 'Akaya Telivigala', cursive;
     color: #fff !important;
@@ -117,9 +111,10 @@ border-radius: 40px;
     border: 2px solid;
     border-color: #fff;
     transition: all 1s ease;
-    position: relative;
+    margin: auto ;
   }
   .boton:hover {
     background: #000;
-    color: #fff !important;
+    color: #fff ;
+    cursor: pointer;
   }
