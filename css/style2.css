@@ -4,6 +4,7 @@
 }
 
 .header{
+  
   width: 100%;
   height: 70px;
   background: #000;
@@ -17,11 +18,30 @@
   font-family:'Dancing Script', cursive;
 }
 
+.nav{
+  font-family: 'Akaya Telivigala', cursive;
+  
+}
+.nav .nav__item{
+  display: inline-block;
+}
+.nav__item{
+  float: right;
+  padding: 30px 50px 0 0;
+}
+nav a{
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 7px ;
+
+}
 nav a:hover{
   color: rgba(151, 148, 148, 0.692);
   text-decoration: line-through;
   margin-right: 10px;
-  padding: 10px 15px;
+  padding: 7px;
+  
 }
 nav i{
   font-size: 20px;
@@ -30,4 +50,7 @@ nav i{
 nav i:hover{
   font-size: 20px;
   color: rgba(151, 148, 148, 0.692);
+}
+.fas .fa-house-user{
+  border: 1px solid #fff;
 }
