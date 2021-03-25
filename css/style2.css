@@ -54,3 +54,15 @@ nav i:hover{
 .fas .fa-house-user{
   border: 1px solid #fff;
 }
+
+.content{
+  background: #075;
+  height: 900px;
+  width: 100%;
+}
+.grid-container{
+  background: #f74;
+  height: 90%;
+  width: 80%;
+}
+}
