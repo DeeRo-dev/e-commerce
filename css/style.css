@@ -23,8 +23,8 @@ body{
 .hero__title{
   font-family:'Dancing Script', cursive;
   font-size: 9em;
-  color: #aaa;
-  margin-bottom: 35px;
+  color: #fff;
+  margin-top: 100px;
 }
 .hero__subtitle{
  
@@ -45,34 +45,7 @@ body{
 .hero .container{
   padding: 0;
 }
-.nav{
-  font-family: 'Akaya Telivigala', cursive;
-  text-align: right;
-  padding: 30px 20px 0 0;
 
-}
-nav a{
-  color: #fff;
-  text-decoration: none;
-  margin-right: 10px;
-  padding: 10px 15px;
-  padding: 7px ;
-}
-
-nav a:hover{
-  color: rgba(151, 148, 148, 0.692);
-  text-decoration: line-through;
-  margin-right: 10px;
-  padding: 7px;
-}
-nav i{
-  font-size: 20px;
-  color: #fff;
-}
-nav i:hover{
-  font-size: 20px;
-  color: rgba(151, 148, 148, 0.692);
-}
 .hero__container{
   display: flex;
   height: 500px;
@@ -92,15 +65,30 @@ nav i:hover{
 
 }
 .hero__texts{
-  margin: 0;
+  margin: 50px;
+  
 }
+.content-parrafo{
+  height: 250px;
+  width: 600px;
+  text-align: fixed;
+  margin-top: 100px;
 
+}
 .parrafo{
   text-align: justify;
-  width: 500px;
+  
 }
 
-
+.botones{
+  display: block !important;
+  height: 180px;
+  width: 260px;
+  margin-top: 325px;
+  margin-left: 90px;
+  padding: 10px;
+  
+}
   .boton {
     font-family: 'Akaya Telivigala', cursive;
     color: #fff !important;
@@ -111,9 +99,28 @@ nav i:hover{
     border: 2px solid;
     border-color: #fff;
     transition: all 1s ease;
-    margin: auto ;
+    margin-top: 50px;
   }
   .boton:hover {
+    background: #000;
+    color: #fff ;
+    cursor: pointer;
+  }
+
+  .logeo {
+    font-family: 'Akaya Telivigala', cursive;
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: rgba(0,0,0,0);
+    border: 2px solid;
+    border-color: #fff;
+    transition: all 1s ease;
+    
+    
+  }
+  .logeo:hover {
     background: #000;
     color: #fff ;
     cursor: pointer;
