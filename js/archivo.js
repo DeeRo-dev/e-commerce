@@ -1,2 +1,3 @@
 'use strict'
-let boton = document.querySelector("#boton");
+let logeo = document.querySelector("#logeo");
+
