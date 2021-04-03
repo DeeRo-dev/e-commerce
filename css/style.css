@@ -81,7 +81,7 @@ body{
 }
 
 .botones{
-  display: block !important;
+  display: block;
   height: 180px;
   width: 260px;
   margin-top: 325px;
