@@ -1,11 +1,14 @@
 'use strict'
 let botones = document.getElementById('botones');
-let botoness = document.getElementById('botoness');
+let logear = document.getElementById('logear');
 function inciarSesion(){
-  console.log('apretado');
-  let boton = document.querySelector('#logeo');
-  boton.style.background = 'blue';
-  botones.style.background = 'pink';
+  
   botones.style.display = 'none';
-  botoness.style.display = 'block';
+ logear.style.display = 'block';
+
+};
+
+function volver(){
+  botones.style.display = 'block';
+  logear.style.display = 'none';
 };
