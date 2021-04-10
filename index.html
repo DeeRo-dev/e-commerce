@@ -28,16 +28,26 @@
       </div>
         </div>
         <div class="logear" id="logear">
-          <input type="email" value="Correo Electronico">
-          <input type="password" value="">
-          <br>
-          <input type="button" value="Inciar Sesion">
-          <br>
+          <div class="cerrar-login">
+            <input type="button" value="X" class="cerrar" onclick="cerrar();">
+          </div>
+         <form class="acceder">
+ 
+       <div class="datos">
+        <input type="email" placeholder="Correo Electronico" class="email">
+        <input type="password" placeholder="Contraseña" class="password">
+       </div>
+          <input type="button" value="Inciar Sesión" class="entrar">
+        </form>
+          
+         <div class="restablecer-clave">
           <a href="#">¿Olvidaste tu contraseña?</a>
-          <br>
+         </div>
           <hr>
-          <input type="button" value="Registrarse">
-          <input type="button" value="Volver" onclick="volver();">
+          <div class="inciar-registro">
+            <input type="button" value="Registrarse" class="abrir-registro">
+          
+          </div>
         </div>
         <div class="botones" id="botones" >
           <input type="button" value="Iniciar sesión" class="logeo" id="logeo" onclick="inciarSesion();"/>

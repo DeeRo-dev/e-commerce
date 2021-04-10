@@ -8,7 +8,7 @@ function inciarSesion(){
 
 };
 
-function volver(){
+function cerrar(){
   botones.style.display = 'block';
   logear.style.display = 'none';
 };
